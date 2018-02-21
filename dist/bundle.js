@@ -18732,7 +18732,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-exports.default = function (_ref) {
+var Form = function Form(_ref) {
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ['children']);
 
@@ -18742,6 +18742,8 @@ exports.default = function (_ref) {
     children
   );
 };
+
+exports.default = Form;
 
 /***/ }),
 /* 32 */
@@ -18760,9 +18762,11 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var FormInput = function FormInput(props) {
   return _react2.default.createElement('input', props);
 };
+
+exports.default = FormInput;
 
 /***/ }),
 /* 33 */
@@ -18781,9 +18785,11 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var FormTextarea = function FormTextarea(props) {
   return _react2.default.createElement('textarea', props);
 };
+
+exports.default = FormTextarea;
 
 /***/ }),
 /* 34 */
@@ -18804,7 +18810,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-exports.default = function (_ref) {
+var FormButton = function FormButton(_ref) {
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ['children']);
 
@@ -18814,6 +18820,8 @@ exports.default = function (_ref) {
     children
   );
 };
+
+exports.default = FormButton;
 
 /***/ }),
 /* 35 */
@@ -18892,9 +18900,11 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var Section = function Section(props) {
   return _react2.default.createElement('section', props);
 };
+
+exports.default = Section;
 
 /***/ })
 /******/ ]);
