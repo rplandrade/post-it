@@ -4,6 +4,7 @@ import FormInput from './formInput.js'
 import FormTextarea from './formTextarea.js'
 import FormButton from './formButton.js'
 import Nota from '../nota'
+import Icon from './icon/icon.js'
 
 
 function montaInputTitulo(notaCopiada) {
